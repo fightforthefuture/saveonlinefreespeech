@@ -220,6 +220,7 @@ h1, h2, h3, p {
 
 .credits-heading {
   margin-left: 5px;
+  font-style: normal;
 }
 
 .contact-wrapper {
@@ -230,7 +231,14 @@ h1, h2, h3, p {
 
 /* ------------ style for tablet and desktop ------------ */
 @media only screen and (min-width: 767px) {
-/*todo
-positioning to match mock
-etc*/
+  .credits-heading,
+  .credits-logo {
+    display: inline-block;
+  }
+
+  .credits-heading {
+    margin-right: 7px;
+    vertical-align: top;
+    padding-top: 4px;
+  }
 }
