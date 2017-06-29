@@ -175,11 +175,6 @@ h1, h2, h3, p {
   margin-top: 25px;
 }
 
-.argument-list-wrapper {
-  padding: 0;
-  margin: 0;
-}
-
 .credits-contact-wrapper {
   border-right: 5px solid #ff1c20;
 }
@@ -199,7 +194,7 @@ h1, h2, h3, p {
 
 
 /* ------------ style for tablet and desktop ------------ */
-@media only screen and (min-width: 770px) {
+@media only screen and (min-width: 767px) {
 /*todo
 positioning to match mock
 etc*/
