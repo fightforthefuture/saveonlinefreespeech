@@ -17,7 +17,7 @@ body {
 
 .intro-svg-line {
   stroke: #6c6c6c;
-  stroke-width:0.25;
+  stroke-width: 0.25;
 }
 
 .form-wrapper {
@@ -97,15 +97,13 @@ body {
   font-weight: normal;
 }
 
+.press-inquiries {
+  line-height: 1.25;
+}
+
 .press-inquiry-link {
   text-decoration: none;
 }
-
-/*todo
-letter spacing
-line height
-font weight
-etc*/
 
 
 
