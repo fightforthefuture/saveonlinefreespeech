@@ -66,6 +66,10 @@ body {
   font-family: Arial, sans-serif;
 }
 
+.form-button {
+  text-transform: uppercase;
+}
+
 .argument-highlight {
   text-decoration: underline;
 }
@@ -109,8 +113,41 @@ h1, h2, h3, p {
   margin-top: 25px;
 }
 
+.form-wrapper,
+.form-input,
 .form-button {
+  border-radius: 5px;
+}
+
+.form-wrapper {
+  padding: 25px 25px;
+}
+
+.form-header {
+  margin-bottom: 25px;
+}
+
+.form-input {
+  margin-bottom: 7px;
+  height: 25px;
+}
+
+.form-text-area {
+  height: 100px;
+}
+
+.form-input::placeholder {
+  padding: 7px;
+}
+
+.form-input,
+.form-button {
+  width: 100%;
   border: none;
+}
+
+.form-button {
+  padding: 7px 0;
 }
 
 .quote-avatar {
