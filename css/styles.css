@@ -37,8 +37,12 @@ body {
   background-color: #ff1818;
 }
 
-.quote-text-wrapper {
+.quote-content {
   color: #1f1f1f;
+}
+
+.quote-byline {
+  color: #5c5c5c;
 }
 
 .secondary-content {
@@ -68,6 +72,11 @@ body {
 
 .form-button {
   text-transform: uppercase;
+  font-weight: bold;
+}
+
+.quote-byline {
+  font-weight: bold;
 }
 
 .argument-highlight {
@@ -106,11 +115,14 @@ h1, h2, h3, p {
 }
 
 .intro-summary,
-.form-wrapper,
-.gallery,
-.carousel,
-.quote-gallery-block  {
+.form-wrapper  {
   margin-top: 25px;
+}
+
+.quote-gallery,
+.quote-carousel,
+.quote-gallery-block {
+  margin-top: 50px;
 }
 
 .form-wrapper,
@@ -150,9 +162,21 @@ h1, h2, h3, p {
   padding: 7px 0;
 }
 
+.quote-gallery-block {
+  text-align: center;
+}
+
 .quote-avatar {
   border-radius: 50%;
-  width: 150px;
+  width: 50%;
+}
+
+.quote-text-wrapper {
+  margin-top: 15px;
+}
+
+.quote-byline {
+  margin-top: 7px;
 }
 
 .secondary-content {
