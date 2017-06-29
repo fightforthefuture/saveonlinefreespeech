@@ -1,16 +1,13 @@
-/* ------------ fonts ------------ */
+/* ------------ colors ------------ */
 body {
-  font-family: Arial, sans-serif;
+  border-top: 1px solid #ff2020;
 }
 
-
-
-/* ------------ colors ------------ */
 .primary-content {
   background-color: #f6f6f6;
 }
 
-.supporting-content {
+.secondary-content {
   background-color: #ffffff;
 }
 
@@ -38,39 +35,135 @@ body {
 .form-button {
   color: #f6f6f6;
   background-color: #ff1818;
-  border: none;
 }
 
-.organization-logo {
-  border-radius: 50%;
-  width: 150px;
-}
 .quote-text-wrapper {
   color: #1f1f1f;
 }
 
-.supporting-content {
+.secondary-content {
   color: #1f1f1f;
 }
 
 .argument-highlight {
   color: #ff1b1b;
-  text-decoration: underline;
 }
 
-.credits-contact-wrapper {
+.credits-contact-wrapper,
+.press-inquiry-link {
   background-color: #1e1e1e;
-  border-right: 11px solid #ff1c20;
+  color: #ffffff;
 }
 
 .contact-wrapper {
   background-color: #272727;
 }
 
-.credits-contact-wrapper {
-  color: #ffffff;
+
+
+/* ------------ typography ------------ */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.argument-highlight {
+  text-decoration: underline;
+}
+
+.credits-heading {
+  font-weight: normal;
 }
 
 .press-inquiry-link {
   text-decoration: none;
+}
+
+/*todo
+letter spacing
+line height
+font weight
+etc*/
+
+
+
+/* ------------ mobile first style ------------ */
+h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+.section-wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.primary-content {
+  padding: 25px 5px 50px;
+}
+
+.intro-summary,
+.form-wrapper,
+.gallery,
+.carousel,
+.quote-gallery-block  {
+  margin-top: 25px;
+}
+
+.form-button {
+  border: none;
+}
+
+.quote-avatar {
+  border-radius: 50%;
+  width: 150px;
+}
+
+.secondary-content {
+  padding: 25px 5px;
+}
+
+.supporting-argument {
+  margin: 25px 0 50px;
+}
+
+.supporting-argument:last-child {
+  margin-bottom: 25px;
+}
+
+.argument-content {
+  margin-top: 15px;  
+}
+
+.argument-content:nth-child(2) {
+  margin-top: 25px;
+}
+
+.argument-list-wrapper {
+  padding: 0;
+  margin: 0;
+}
+
+.credits-contact-wrapper {
+  border-right: 5px solid #ff1c20;
+}
+
+.credits-wrapper {
+  padding: 25px 0 25px 25px;
+}
+
+.credits-heading {
+  margin-left: 5px;
+}
+
+.contact-wrapper {
+  padding: 15px 0 25px 25px;
+}
+
+
+
+/* ------------ style for tablet and desktop ------------ */
+@media only screen and (min-width: 770px) {
+/*todo
+positioning to match mock
+etc*/
 }
