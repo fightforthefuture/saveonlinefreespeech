@@ -114,7 +114,10 @@ h1, h2, h3, p {
   padding: 25px 5px 50px;
 }
 
-.intro-summary,
+.intro-summary {
+  margin-top: 7px;
+}
+
 .form-wrapper  {
   margin-top: 25px;
 }
