@@ -15,6 +15,11 @@ body {
   color: #1f1f1f;
 }
 
+.intro-svg-line {
+  stroke: #6c6c6c;
+  stroke-width:0.25;
+}
+
 .form-wrapper {
   background-color: #1f1f1f;
 }
@@ -43,6 +48,11 @@ body {
 
 .quote-byline {
   color: #5c5c5c;
+}
+
+.quote-byline-svg-line {
+  stroke: #1f1f1f;
+  stroke-width: 0.25;
 }
 
 .secondary-content {
