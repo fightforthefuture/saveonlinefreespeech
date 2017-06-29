@@ -42,7 +42,7 @@ body {
   background-color: #ff1818;
 }
 
-.quote-content {
+.quote-text {
   color: #1f1f1f;
 }
 
@@ -143,7 +143,7 @@ h1, h2, h3, p {
 }
 
 .form-wrapper {
-  padding: 25px 25px;
+  padding: 25px;
 }
 
 .form-header {
@@ -227,6 +227,7 @@ h1, h2, h3, p {
 .credits-logo {
   margin-top: 5px;
 }
+
 .text-logo {
   width: 50%;
 }
@@ -244,14 +245,94 @@ h1, h2, h3, p {
 
 /* ------------ style for tablet and desktop ------------ */
 @media only screen and (min-width: 767px) {
-  .credits-heading,
-  .credits-logo {
+  .primary-content {
+    padding: 25px 0 50px;
+  }
+
+  .intro {
+    padding-left: 12.55%;
+  }
+
+  .intro-summary {
+    line-height: 1.25;
+  }
+
+  .form-wrapper {
+    width: 81.55%;
+    padding: 25px 50px 30px 12.55%;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
+  .form-header {
+    line-height: 1.25;
+  }
+
+  .quote-gallery-block {
+    padding-left: 12.55%;
+  }
+
+  .quote-avatar {
     display: inline-block;
+    width: 20%;
+    margin-left: 5px;
+    margin-top: 5px;
+    vertical-align: top;
+  }
+
+  .quote-text-wrapper {
+    display: inline-block;
+    width: 73%;
+    text-align: left;
+    margin-left: 15px;
+  }
+
+  .quote-byline {
+    font-size: 0.9em;
+  }
+
+  .secondary-content {
+    padding-left: 10%;
+    padding-bottom: 15px;
+  }
+
+  .section-wrapper {
+    width: 75%;
+    margin: 0;
+  }
+
+  .argument-content {
+    line-height: 1.25;
+    margin-top: 25px;  
+  }
+
+  .credits-contact-wrapper {
+    width: 78%;
+  }
+
+  .credits-heading,
+  .credits-logos {
+    display: inline-block;
+    width: auto;
   }
 
   .credits-heading {
     margin-right: 7px;
     vertical-align: top;
     padding-top: 4px;
+    width: auto;
+  }
+
+  .credits-logos {
+    width: 50%;
+  }
+
+  .credits-wrapper,
+  .contact-wrapper {
+    padding-left: 12.5%;
+  }
+
+  .press-inquiries {
+    font-size: 0.75em;
   }
 }
