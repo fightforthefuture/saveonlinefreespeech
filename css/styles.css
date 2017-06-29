@@ -1,0 +1,76 @@
+/* ------------ fonts ------------ */
+body {
+  font-family: Arial, sans-serif;
+}
+
+
+
+/* ------------ colors ------------ */
+.primary-content {
+  background-color: #f6f6f6;
+}
+
+.supporting-content {
+  background-color: #ffffff;
+}
+
+.intro {
+  color: #1f1f1f;
+}
+
+.form-wrapper {
+  background-color: #1f1f1f;
+}
+
+.form-header {
+  color: #f6f6f6;
+}
+
+.form-input {
+  color: #1f1f1f;
+  background-color: #f6f6f6;
+}
+
+.form-input::placeholder {
+  color: #1f1f1f;
+}
+
+.form-button {
+  color: #f6f6f6;
+  background-color: #ff1818;
+  border: none;
+}
+
+.organization-logo {
+  border-radius: 50%;
+  width: 150px;
+}
+.quote-text-wrapper {
+  color: #1f1f1f;
+}
+
+.supporting-content {
+  color: #1f1f1f;
+}
+
+.argument-highlight {
+  color: #ff1b1b;
+  text-decoration: underline;
+}
+
+.credits-contact-wrapper {
+  background-color: #1e1e1e;
+  border-right: 11px solid #ff1c20;
+}
+
+.contact-wrapper {
+  background-color: #272727;
+}
+
+.credits-contact-wrapper {
+  color: #ffffff;
+}
+
+.press-inquiry-link {
+  text-decoration: none;
+}
