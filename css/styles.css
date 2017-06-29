@@ -218,13 +218,26 @@ h1, h2, h3, p {
   padding: 25px 0 25px 25px;
 }
 
-.credits-heading {
+.credits-heading,
+.credits-logos,
+.contact-wrapper {
   margin-left: 5px;
-  font-style: normal;
+}
+
+.credits-logo {
+  margin-top: 5px;
+}
+.text-logo {
+  width: 50%;
+}
+
+.heart-logo {
+  width: 8%;
+  margin-left: 3px;
 }
 
 .contact-wrapper {
-  padding: 15px 0 25px 25px;
+  padding: 15px 25px 25px 25px;
 }
 
 
