@@ -302,46 +302,53 @@ h1, h2, h3, p {
     margin-bottom: 100px;
   }
 
-  .form-header {
-    line-height: 1.25;
-  }
-
-  .form-input-left {
-    width: 45%;
-    float: left;
-  }
-
-  .form-input-bottom {
-    white-space: nowrap;
-  }
-
-  .input-address {
-    display: inline-block;
-    width: 57%;
-  }
-
-  .input-zip {
-    display: inline-block;
-    margin-left: 1.25%;
-    width: 39.5%;
-  }
-
-  .form-input-right {
-    width: 45%;
-    margin-left: 1.25%;
-    float: left;
+  .form-fields-wrapper {
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
   }
 
   .form-input {
     height: 50px;
+    padding-bottom: 10px;
+  }
+
+  .form-input::placeholder {
+    padding-bottom: 15px;
+  }
+
+  .form-input-left {
+    flex-basis: 49.5%;
+    margin-right: 1%;
+  }
+
+  .form-input-right {
+    flex-basis: 49.5%;
+    position: relative;
   }
 
   .form-text-area {
-    height: 163px;
+    position: absolute;
+    height: 89%;
+  }
+
+  .form-input-bottom {
+    display: flex;
+    flex-wrap: flex;
+  }
+
+  .input-address {
+    flex-grow: 1;
+    height: auto;
+  }
+
+  .input-zip {
+    flex-shrink: 2;
+    margin-left: 2%;
   }
 
   .form-button {
-    width: 92%;
+    flex-basis: 100%;
   }
 
   .quote-gallery-block {
