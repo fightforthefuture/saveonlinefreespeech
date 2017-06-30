@@ -141,12 +141,15 @@ h1, h2, h3, p {
 
 .form-wrapper  {
   margin-top: 25px;
+  padding: 5%;
+  width: 90%;
 }
 
-.quote-gallery,
-.quote-carousel,
-.quote-gallery-block {
-  margin-top: 75px;
+.form-input {
+  width: 96%;
+  margin-bottom: 7px;
+  height: 30px;
+  padding: 2%;
 }
 
 .form-wrapper,
@@ -155,19 +158,8 @@ h1, h2, h3, p {
   border-radius: 5px;
 }
 
-.form-wrapper {
-  padding: 25px;
-}
-
 .form-header {
   margin-bottom: 25px;
-}
-
-.form-input {
-  padding: 2%;
-  margin-bottom: 7px;
-  height: 30px;
-  width: 96%;
 }
 
 .form-text-area {
@@ -187,6 +179,12 @@ h1, h2, h3, p {
   padding: 7px;
   height: 45px;
   width: 100%;
+}
+
+.quote-gallery,
+.quote-carousel,
+.quote-gallery-block {
+  margin-top: 75px;
 }
 
 .quote-avatar {
