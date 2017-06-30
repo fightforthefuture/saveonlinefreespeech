@@ -107,7 +107,7 @@ body {
 
 
 
-/* ------------ mobile first style ------------ */
+/* ------------ mobile styles ------------ */
 h1, h2, h3, p {
   margin: 0;
   padding: 0;
@@ -170,7 +170,7 @@ h1, h2, h3, p {
 }
 
 .form-button {
-  padding: 7px 0;
+  padding: 7px;
   height: 45px;
 }
 
@@ -261,7 +261,7 @@ h1, h2, h3, p {
 }
 
 .contact-wrapper {
-  padding: 15px 25px 25px 25px;
+  padding: 15px 25px 25px;
 }
 
 
