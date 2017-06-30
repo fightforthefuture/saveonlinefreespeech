@@ -183,6 +183,18 @@ h1, h2, h3, p {
 
 .quote-text-wrapper {
   margin-top: 15px;
+  position: relative;
+}
+
+.quotation-mark {
+  position: absolute;
+  font-size: 6em;
+  color: #d4d4d4;
+}
+
+.opening-quotation-mark {
+  top: -50px;
+  left: 0;
 }
 
 .quote-text,
@@ -261,6 +273,7 @@ h1, h2, h3, p {
     padding: 25px 50px 30px 12.55%;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
+    margin-bottom: 100px;
   }
 
   .form-header {
@@ -307,6 +320,15 @@ h1, h2, h3, p {
 
   .quote-gallery-block {
     padding-left: 12.55%;
+  }
+
+  .quotation-mark {
+    font-size: 12em;
+  }
+
+  .opening-quotation-mark {
+    top: -90px;
+    left: -3%;
   }
 
   .quote-avatar {
