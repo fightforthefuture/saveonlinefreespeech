@@ -174,17 +174,20 @@ h1, h2, h3, p {
   height: 45px;
 }
 
-.quote-gallery-block {
-  text-align: center;
-}
-
 .quote-avatar {
   border-radius: 50%;
   width: 50%;
+  display: block;
+  margin: 0 auto;
 }
 
 .quote-text-wrapper {
   margin-top: 15px;
+}
+
+.quote-text,
+.quote-byline {
+  text-align: center;
 }
 
 .quote-byline {
@@ -299,7 +302,7 @@ h1, h2, h3, p {
   }
 
   .form-button {
-    width: 93%;
+    width: 92%;
   }
 
   .quote-gallery-block {
