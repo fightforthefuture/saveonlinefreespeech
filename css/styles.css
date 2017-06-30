@@ -280,13 +280,13 @@ h1, h2, h3, p {
 
   .input-zip {
     display: inline-block;
-    margin-left: 2%;
-    width: 38.5%;
+    margin-left: 1.25%;
+    width: 39.5%;
   }
 
   .form-input-right {
     width: 45%;
-    margin-left: 2%;
+    margin-left: 1.25%;
     float: left;
   }
 
