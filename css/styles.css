@@ -193,13 +193,20 @@ h1, h2, h3, p {
 }
 
 .opening-quotation-mark {
-  top: -50px;
-  left: -3%;
+  top: -45px;
+  left: 0;
 }
 
 .closing-quotation-mark {
-  bottom: -85px;
-  right: -3%;
+  bottom: -25px;
+  right: 0;
+}
+
+.quote-text,
+.quote-byline-wrapper {
+  width: 85%;
+  position: relative;
+  margin: 0 auto;
 }
 
 .quote-text,
@@ -325,14 +332,15 @@ h1, h2, h3, p {
 
   .quote-gallery-block {
     padding-left: 12.55%;
+    margin-top: 120px;
   }
 
   .quotation-mark {
-    font-size: 12em;
+    font-size: 10em;
   }
 
   .opening-quotation-mark {
-    top: -90px;
+    top: -80px;
     left: -3%;
   }
 
@@ -351,8 +359,9 @@ h1, h2, h3, p {
   }
 
   .closing-quotation-mark {
-    bottom: -175px;
-    right: -8%;
+    bottom: -155px;
+    bottom: -100px;
+    right: -2%;
   }
 
   .quote-text,
