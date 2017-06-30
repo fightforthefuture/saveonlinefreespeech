@@ -31,17 +31,19 @@
             <p class="form-header-messasge"><strong>tell them to keep their hands off the Internet.</strong></p>
           </header>
           <form method="post" action="https://queue.fightforthefuture.org/action" accept-charset="UTF-8">
-            <input class="form-input input-name" type="text" name="member[first_name]" placeholder="Name" title="Name" autocomplete="name" required>
-            <input class="form-input input-email" type="email" name="member[email]" placeholder="Email" title="Email" required>
-            <input class="form-input input-address" type="text" name="member[street_address]" placeholder="Address" title="Address" required>
-            <input class="form-input input-zip" type="text" name="member[postcode]" placeholder="Zip" title="Zip" required>
-            <input class="form-input" type="hidden" name="subject" value="Protect Net Neutrality!"/>
-            <textarea class="form-input form-text-area" name="action_comment" title="Letter" placeholder="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-            proident, sunt in culpa qui officia deserunt mollit anim id est laborum." required></textarea>
+            <div class="form-input-left">
+              <input class="form-input input-name" type="text" name="member[first_name]" placeholder="Name" title="Name" autocomplete="name" required>
+              <input class="form-input input-email" type="email" name="member[email]" placeholder="Email" title="Email" required>
+              <div class="form-input-bottom">
+                <input class="form-input input-address" type="text" name="member[street_address]" placeholder="Address" title="Address" required>
+                <input class="form-input input-zip" type="text" name="member[postcode]" placeholder="Zip" title="Zip" required>
+              </div>
+              <input class="form-input" type="hidden" name="subject" value="Protect Net Neutrality!"/>
+            </div>
+            
+            <div class="form-input-right">
+              <textarea class="form-input form-text-area" name="action_comment" title="Letter" placeholder="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." required></textarea>
+            </div>
 
             <button class="form-button" type="submit">Send your message</button>
 
@@ -149,7 +151,7 @@
             <span class="argument-highlight">Comcast</span>, the biggest ISP in the country, owns and invests in a wide range of left-leaning media companies, including MSNBC, Vox, and Buzzfeed. The rules would make it possible for Comcast to slow down sites like the Daily Caller and Fox News that compete with their investments and their viewpoints.
           </p>
           <p class="argument-content">
-            George Soros owns <strong>$259 million worth of stock in Time Warner Cable</strong>
+            George Soros owns <strong>$259 million worth of stock in Time Warner Cable.</strong>
           </p>
           <p class="argument-content">
             These ISPs are monopolies that could be broken up or forced by the government to follow special regulations. They have to keep the politicians happy, so they have deep incentives to restrict voices that criticize the government.
@@ -161,10 +163,10 @@
   <footer class="credits-contact-wrapper">
     <div class="credits-wrapper">
       <h3 class="credits-heading">This is a project of:</h3>
-      <div class="credits-logos">
-        <img src="images/fftf.png" class="credits-logo text-logo">
-        <img src="images/heart.png" class="credits-logo heart-logo">
-      </div>
+      
+        <img src="images/logo.png" class="credits-logo text-logo">
+        <!-- <img src="images/heart.png" class="credits-logo heart-logo"> -->
+      
     </div>
     <div class="contact-wrapper">
       <p class="press-inquiries">
