@@ -46,7 +46,8 @@ body {
   color: #1f1f1f;
 }
 
-.quote-byline {
+.quote-byline,
+.quote-link {
   color: #5c5c5c;
 }
 
@@ -91,6 +92,10 @@ body {
 
 .quote-byline {
   font-weight: bold;
+}
+
+.quote-link {
+  text-decoration: none;
 }
 
 .argument-heading {
