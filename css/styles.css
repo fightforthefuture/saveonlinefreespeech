@@ -133,7 +133,7 @@ h1, h2, h3, p {
 .quote-gallery,
 .quote-carousel,
 .quote-gallery-block {
-  margin-top: 50px;
+  margin-top: 75px;
 }
 
 .form-wrapper,
@@ -194,7 +194,12 @@ h1, h2, h3, p {
 
 .opening-quotation-mark {
   top: -50px;
-  left: 0;
+  left: -3%;
+}
+
+.closing-quotation-mark {
+  bottom: -85px;
+  right: -3%;
 }
 
 .quote-text,
@@ -203,7 +208,7 @@ h1, h2, h3, p {
 }
 
 .quote-byline {
-  margin-top: 7px;
+  margin-top: 20px;
 }
 
 .secondary-content {
