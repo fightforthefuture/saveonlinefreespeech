@@ -347,8 +347,17 @@ h1, h2, h3, p {
   .quote-text-wrapper {
     display: inline-block;
     width: 73%;
-    text-align: left;
     margin-left: 15px;
+  }
+
+  .closing-quotation-mark {
+    bottom: -175px;
+    right: -8%;
+  }
+
+  .quote-text,
+  .quote-byline {
+    text-align: left;
   }
 
   .quote-byline {
