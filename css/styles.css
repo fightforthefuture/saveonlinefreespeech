@@ -164,8 +164,10 @@ h1, h2, h3, p {
 }
 
 .form-input {
+  padding: 2%;
   margin-bottom: 7px;
   height: 30px;
+  width: 96%;
 }
 
 .form-text-area {
@@ -178,13 +180,13 @@ h1, h2, h3, p {
 
 .form-input,
 .form-button {
-  width: 100%;
   border: none;
 }
 
 .form-button {
   padding: 7px;
   height: 45px;
+  width: 100%;
 }
 
 .quote-avatar {
