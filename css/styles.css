@@ -229,6 +229,7 @@ h1, h2, h3, p {
 
 .quote-byline {
   margin-top: 20px;
+  font-size: 0.9em;
 }
 
 .secondary-content {
@@ -380,10 +381,6 @@ h1, h2, h3, p {
   .quote-text,
   .quote-byline {
     text-align: left;
-  }
-
-  .quote-byline {
-    font-size: 0.9em;
   }
 
   .secondary-content {
