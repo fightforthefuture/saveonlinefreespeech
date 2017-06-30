@@ -143,6 +143,7 @@ h1, h2, h3, p {
   margin-top: 25px;
   padding: 5%;
   width: 90%;
+  border-radius: 5px;
 }
 
 .form-input {
@@ -150,12 +151,8 @@ h1, h2, h3, p {
   margin-bottom: 7px;
   height: 30px;
   padding: 2%;
-}
-
-.form-wrapper,
-.form-input,
-.form-button {
   border-radius: 5px;
+  border: none;
 }
 
 .form-header {
@@ -167,22 +164,17 @@ h1, h2, h3, p {
 }
 
 .form-input::placeholder {
-  padding: 7px;
-}
-
-.form-input,
-.form-button {
-  border: none;
+  margin: 7px;
 }
 
 .form-button {
   padding: 7px;
   height: 45px;
   width: 100%;
+  border-radius: 5px;
+  border: none;
 }
 
-.quote-gallery,
-.quote-carousel,
 .quote-gallery-block {
   margin-top: 75px;
 }
@@ -268,9 +260,6 @@ h1, h2, h3, p {
 
 .credits-logo {
   width: 75%;
-}
-
-.credits-logo {
   margin-top: 5px;
 }
 
@@ -409,13 +398,9 @@ h1, h2, h3, p {
     width: 78%;
   }
 
-  .credits-heading,
-  .credits-logo {
+  .credits-heading {
     display: inline-block;
     width: auto;
-  }
-
-  .credits-heading {
     margin-right: 7px;
     vertical-align: top;
     padding-top: 4px;
@@ -423,6 +408,8 @@ h1, h2, h3, p {
   }
 
   .credits-logo {
+    display: inline-block;
+    width: auto;
     width: 50%;
   }
 
