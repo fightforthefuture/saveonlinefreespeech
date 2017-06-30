@@ -80,6 +80,10 @@ body {
   font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
 }
 
+.intro-heading {
+  font-size: 3.2em;
+}
+
 .form-button {
   text-transform: uppercase;
   font-weight: bold;
@@ -87,6 +91,10 @@ body {
 
 .quote-byline {
   font-weight: bold;
+}
+
+.argument-heading {
+  font-size: 1.9em;
 }
 
 .argument-highlight {
@@ -385,7 +393,7 @@ h1, h2, h3, p {
 
   .argument-content {
     line-height: 1.25;
-    margin-top: 25px;  
+    margin-top: 25px;
   }
 
   .credits-contact-wrapper {
