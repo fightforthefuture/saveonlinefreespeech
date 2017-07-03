@@ -1,3 +1,47 @@
+/* ------------ typography ------------ */
+body {
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+}
+
+.intro-heading {
+  font-size: 3.2em;
+}
+
+.form-button {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.quote-byline {
+  font-weight: bold;
+}
+
+.quote-link {
+  text-decoration: none;
+}
+
+.argument-heading {
+  font-size: 1.9em;
+}
+
+.argument-highlight {
+  text-decoration: underline;
+}
+
+.credits-heading {
+  font-weight: normal;
+}
+
+.press-inquiries {
+  line-height: 1.25;
+}
+
+.press-inquiry-link {
+  text-decoration: none;
+}
+
+
+
 /* ------------ colors ------------ */
 body {
   border-top: 1px solid #ff2020;
@@ -66,56 +110,16 @@ body {
 
 .credits-contact-wrapper,
 .press-inquiry-link {
-  background-color: #1e1e1e;
   color: #ffffff;
 }
 
-.contact-wrapper {
+.credits-contact-wrapper {
+  background-color: #1e1e1e;
+}
+
+.contact-wrapper,
+.press-inquiry-link  {
   background-color: #272727;
-}
-
-
-
-/* ------------ typography ------------ */
-body {
-  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
-}
-
-.intro-heading {
-  font-size: 3.2em;
-}
-
-.form-button {
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-.quote-byline {
-  font-weight: bold;
-}
-
-.quote-link {
-  text-decoration: none;
-}
-
-.argument-heading {
-  font-size: 1.9em;
-}
-
-.argument-highlight {
-  text-decoration: underline;
-}
-
-.credits-heading {
-  font-weight: normal;
-}
-
-.press-inquiries {
-  line-height: 1.25;
-}
-
-.press-inquiry-link {
-  text-decoration: none;
 }
 
 
@@ -249,13 +253,18 @@ h1, h2, h3, p {
 }
 
 .credits-wrapper {
-  padding: 25px 0 25px 25px;
+  padding: 25px 0;
 }
 
-.credits-heading,
-.credits-logo,
-.contact-wrapper {
-  margin-left: 5px;
+.credits-wrapper,
+.press-inquiries {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.credits-wrapper,
+.press-inquiries {
+  padding-left: 5px;
 }
 
 .credits-logo {
@@ -264,8 +273,10 @@ h1, h2, h3, p {
 }
 
 .contact-wrapper {
-  padding: 15px 25px 25px;
+  padding: 15px 0 25px;
 }
+
+
 
 
 
@@ -275,20 +286,33 @@ h1, h2, h3, p {
     padding: 25px 0 50px;
   }
 
+  .section-wrapper {
+    width: 100%;
+  }
+
   .intro {
-    padding-left: 12.55%;
+    max-width: 80%;
+    margin: 0 auto;
   }
 
   .intro-summary {
+    max-width: 90%;
     line-height: 1.25;
   }
 
   .form-wrapper {
-    width: 81.55%;
-    padding: 25px 50px 30px 12.55%;
+    width: 75%;
+    padding: 3% 3% 2% 6.5%;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
     margin-bottom: 100px;
+  }
+
+  .form-header,
+  .form-fields-wrapper {
+    width: 90%;
+    margin: 25px auto 5px;
+    margin: 0 auto 3%;
   }
 
   .form-fields-wrapper {
@@ -341,7 +365,8 @@ h1, h2, h3, p {
   }
 
   .quote-gallery-block {
-    padding-left: 12.55%;
+    margin: 0 auto;
+    max-width: 80%;
     margin-top: 120px;
   }
 
@@ -351,27 +376,26 @@ h1, h2, h3, p {
 
   .opening-quotation-mark {
     top: -80px;
-    left: -3%;
+    left: 0;
   }
 
   .quote-avatar {
     display: inline-block;
     width: 10%;
-    margin-left: 5px;
-    margin-top: 5px;
+    text-align: center;
     vertical-align: top;
   }
 
   .quote-text-wrapper {
     display: inline-block;
-    width: 73%;
-    margin-left: 15px;
+    width: 80%;
+    margin: 0 auto;
   }
 
   .closing-quotation-mark {
     bottom: -155px;
     bottom: -100px;
-    right: -2%;
+    right: 4%;
   }
 
   .quote-text,
@@ -380,13 +404,13 @@ h1, h2, h3, p {
   }
 
   .secondary-content {
-    padding-left: 10%;
+    max-width: 80%;
+    margin: 0 auto;
     padding-bottom: 15px;
   }
 
-  .section-wrapper {
-    width: 75%;
-    margin: 0;
+  .supporting-argument {
+    width: 90%;
   }
 
   .argument-content {
@@ -395,27 +419,24 @@ h1, h2, h3, p {
   }
 
   .credits-contact-wrapper {
-    width: 78%;
+    width: 80%;
+  }
+
+  .credits-wrapper,
+  .press-inquiries {
+    padding-left: 12.55%;
   }
 
   .credits-heading {
     display: inline-block;
-    width: auto;
     margin-right: 7px;
     vertical-align: top;
     padding-top: 4px;
-    width: auto;
   }
 
   .credits-logo {
     display: inline-block;
-    width: auto;
-    width: 50%;
-  }
-
-  .credits-wrapper,
-  .contact-wrapper {
-    padding-left: 12.5%;
+    width: 30%;
   }
 
   .press-inquiries {
