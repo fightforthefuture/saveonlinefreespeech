@@ -240,8 +240,24 @@ h1, h2, h3, p {
   margin-bottom: 25px;
 }
 
+.argument-list {
+  padding-left: 0;
+  counter-reset: item;
+}
+
 .argument-content {
-  margin-top: 15px;  
+  margin-top: 15px;
+}
+
+.argument-list-content {
+  list-style-position: inside;
+  display: block;
+}
+
+.argument-list-content:before {
+  content: counter(item) "- ";
+  counter-increment: item;
+  font-weight: bold;
 }
 
 .argument-content:nth-child(2) {
