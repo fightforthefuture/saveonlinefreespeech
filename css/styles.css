@@ -61,7 +61,6 @@ body {
 
 .intro-svg-line {
   stroke: #6c6c6c;
-  stroke-width: 0.25;
 }
 
 .form-wrapper {
@@ -137,6 +136,14 @@ h1, h2, h3, p {
 
 .primary-content {
   padding: 25px 5px 50px;
+}
+
+.intro-svg-line {
+  stroke-width: 0.25;
+}
+
+.intro-svg-desktop {
+  display: none;
 }
 
 .intro-summary {
@@ -309,6 +316,14 @@ h1, h2, h3, p {
   .intro {
     max-width: 80%;
     margin: 0 auto;
+  }
+
+  .intro-svg-mobile {
+    display: none;
+  }
+
+  .intro-svg-desktop {
+    display: inline;
   }
 
   .intro-summary {
