@@ -507,7 +507,7 @@ h1, h2, h3, p {
     max-width: 80%;
     margin: 0 auto;
     padding-top: 75px;
-    padding-bottom: 15px;
+    padding-bottom: 50px;
   }
 
   .supporting-argument {
@@ -529,9 +529,12 @@ h1, h2, h3, p {
     width: 80%;
   }
 
-  .credits-wrapper,
+  .credits-wrapper {
+    padding: 50px 0 50px 12.55%;
+  }
+
   .press-inquiries {
-    padding-left: 12.55%;
+    padding: 10px 0 20px 12.55%;
   }
 
   .credits-heading {
