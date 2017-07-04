@@ -421,7 +421,6 @@ h1, h2, h3, p {
     height: 50px;
     padding-bottom: 10px;
     width: 92%;
-    margin-bottom: 3%;
   }
 
   .form-input::placeholder {
@@ -435,7 +434,7 @@ h1, h2, h3, p {
   .form-input-right {
     flex-basis: 49.2%;
     position: relative;
-    margin-left: 1.5%;
+    margin-left: 1%;
   }
 
   .form-text-area {
@@ -449,13 +448,13 @@ h1, h2, h3, p {
   }
 
   .input-address {
-    flex-grow: 1;
+    width: 62%;
     height: auto;
   }
 
   .input-zip {
-    flex-shrink: 2;
-    margin-left: 3%;
+    width: 20%;
+    margin-left: 2%;
   }
 
   .form-button {
