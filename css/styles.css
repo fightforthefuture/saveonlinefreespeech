@@ -1,15 +1,41 @@
 /* ------------ typography ------------ */
 body {
-  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+  font-family: "Helvetica", sans-serif;
 }
 
 .intro-heading {
-  font-size: 3.2em;
+  font-size: 2em;
+  letter-spacing: 1px;
+}
+
+.intro-summary-emphasis {
+  font-weight: bold;
 }
 
 .form-button {
   text-transform: uppercase;
-  font-weight: bold;
+}
+
+.intro-summary,
+.form-header-message {
+  font-size: 1.1em;
+  letter-spacing: 0.5px;
+}
+
+.argument-content,
+.quote-text,
+.quote-byline,
+.credits-heading {
+  letter-spacing: 0.5px;
+}
+
+.intro-summary,
+.quote-text,
+.form-header-message:first-child,
+.argument-content,
+.credits-heading,
+.thin-text {
+  font-weight: lighter;
 }
 
 .quote-byline {
@@ -21,23 +47,62 @@ body {
 }
 
 .argument-heading {
-  font-size: 1.9em;
+  font-size: 1.8em
+  letter-spacing: 1px;
 }
 
 .argument-highlight {
   text-decoration: underline;
 }
 
-.credits-heading {
-  font-weight: normal;
-}
-
 .press-inquiries {
   line-height: 1.25;
+  letter-spacing: 0.5px;
+  font-size: 1em;
 }
 
 .press-inquiry-link {
   text-decoration: none;
+}
+
+.bold-text {
+  font-weight: bolder;
+}
+
+@media only screen and (min-width: 767px) {
+  .intro-heading {
+    font-size: 3.2em;
+  }
+
+  .intro-summary,
+  .form-header-message {
+    font-size: 1.8em;
+  }
+
+  .argument-content,
+  .quote-text,
+  .quote-byline,
+  .credits-heading {
+    font-size: 1.7em;
+  }
+
+  .form-input[type=text],
+  .form-input[type=email] {
+    font-size: 1.9em;
+  }
+
+  .form-text-area {
+    font-size: 1.5em;
+  }
+
+  .form-button {
+    font-size: 1.9em;
+    font-weight: bolder;
+  }
+
+  .argument-heading {
+    font-size: 2.8em;
+  }
 }
 
 
@@ -157,17 +222,17 @@ h1, h2, h3, p {
   border-radius: 5px;
 }
 
-.form-input {
-  width: 96%;
-  margin-bottom: 7px;
-  height: 30px;
-  padding: 2%;
-  border-radius: 5px;
-  border: none;
-}
-
 .form-header {
   margin-bottom: 25px;
+}
+
+.form-input {
+  width: 92%;
+  margin-bottom: 7px;
+  height: 30px;
+  padding: 4%;
+  border-radius: 5px;
+  border: none;
 }
 
 .form-text-area {
@@ -232,7 +297,6 @@ h1, h2, h3, p {
 
 .quote-byline {
   margin-top: 20px;
-  font-size: 0.9em;
 }
 
 .secondary-content {
@@ -306,7 +370,7 @@ h1, h2, h3, p {
 /* ------------ style for tablet and desktop ------------ */
 @media only screen and (min-width: 767px) {
   .primary-content {
-    padding: 25px 0 50px;
+    padding: 50px 0 100px;
   }
 
   .section-wrapper {
@@ -316,6 +380,7 @@ h1, h2, h3, p {
   .intro {
     max-width: 80%;
     margin: 0 auto;
+    margin-bottom: 50px;
   }
 
   .intro-svg-mobile {
@@ -336,7 +401,7 @@ h1, h2, h3, p {
     padding: 3% 3% 2% 6.5%;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
   }
 
   .form-header,
@@ -355,6 +420,8 @@ h1, h2, h3, p {
   .form-input {
     height: 50px;
     padding-bottom: 10px;
+    width: 92%;
+    margin-bottom: 3%;
   }
 
   .form-input::placeholder {
@@ -362,18 +429,18 @@ h1, h2, h3, p {
   }
 
   .form-input-left {
-    flex-basis: 49.5%;
-    margin-right: 1%;
+    flex-basis: 49.2%;
   }
 
   .form-input-right {
-    flex-basis: 49.5%;
+    flex-basis: 49.2%;
     position: relative;
+    margin-left: 1.5%;
   }
 
   .form-text-area {
     position: absolute;
-    height: 89%;
+    height: 85.5%;
   }
 
   .form-input-bottom {
@@ -388,25 +455,27 @@ h1, h2, h3, p {
 
   .input-zip {
     flex-shrink: 2;
-    margin-left: 2%;
+    margin-left: 3%;
   }
 
   .form-button {
     flex-basis: 100%;
+    height: 75px;
   }
 
   .quote-gallery-block {
     margin: 0 auto;
     max-width: 80%;
-    margin-top: 120px;
+    margin-top: 150px;
   }
 
   .quotation-mark {
     font-size: 10em;
+    font-weight: bolder;
   }
 
   .opening-quotation-mark {
-    top: -80px;
+    top: -90px;
     left: 0;
   }
 
@@ -424,8 +493,8 @@ h1, h2, h3, p {
   }
 
   .closing-quotation-mark {
-    bottom: -155px;
-    bottom: -100px;
+    bottom: -110px;
+    bottom: -80px;
     right: 4%;
   }
 
@@ -437,16 +506,23 @@ h1, h2, h3, p {
   .secondary-content {
     max-width: 80%;
     margin: 0 auto;
+    padding-top: 75px;
     padding-bottom: 15px;
   }
 
   .supporting-argument {
+    margin-top: 100px;
     width: 85%;
   }
 
-  .argument-content {
+  .supporting-argument:first-child {
+    margin-top: 0;
+  }
+
+  .argument-content,
+  .argument-content:nth-child(2) {
     line-height: 1.25;
-    margin-top: 25px;
+    margin-top: 50px;
   }
 
   .credits-contact-wrapper {
@@ -468,9 +544,5 @@ h1, h2, h3, p {
   .credits-logo {
     display: inline-block;
     width: 30%;
-  }
-
-  .press-inquiries {
-    font-size: 0.75em;
   }
 }
