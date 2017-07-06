@@ -271,6 +271,14 @@ body {
   to {opacity: 1}
 }
 
+.hidden {
+  display: none;
+}
+
+.shown {
+  display: block;
+}
+
 
 
 /* ------------ mobile styles ------------ */
