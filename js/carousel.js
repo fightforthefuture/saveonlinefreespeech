@@ -14,23 +14,13 @@
     setSlide(slideIndex - 1);
   }
 
-  function hideSlide(slide) {
-    slide.classList.remove("shown");
-    slide.classList.add("hidden");
-  }
-
-  function showSlide(slide) {
-    slide.classList.remove("hidden");
-    slide.classList.add("shown");
-  }
-
   function setSlide(n) {
     if (n < 0) {
-      slideIndex = slides.length - 1
+      slideIndex = slides.length - 1;
     } else if (n >= slides.length) {
-      slideIndex = 0
+      slideIndex = 0;
     } else {
-      slideIndex = n
+      slideIndex = n;
     }
     
     showSlides();
@@ -38,8 +28,8 @@
 
   function showSlides() {
     for (var i = 0; i < slides.length; i++) {
-      hideSlide(slides[i]);
+      slides[i].classList.add("hidden");
     }
-    showSlide(slides[slideIndex]);
+    slides[slideIndex].classList.remove("hidden");
   }
 })();

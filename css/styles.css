@@ -214,10 +214,6 @@ body {
   margin: auto;
 }
 
-.quoteCarouselBlock {
-  display: none;
-}
-
 .prev,
 .next {
   cursor: pointer;
@@ -273,10 +269,6 @@ body {
 
 .hidden {
   display: none;
-}
-
-.shown {
-  display: block;
 }
 
 
