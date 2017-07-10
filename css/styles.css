@@ -588,9 +588,8 @@ h1, h2, h3, p {
   }
 
   .closing-quotation-mark {
-    bottom: -110px;
     bottom: -80px;
-    right: 4%;
+    right: 0;
   }
 
   .quote-text,
