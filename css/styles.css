@@ -112,6 +112,14 @@ body {
   border-top: 1px solid #ff2020;
 }
 
+.twitter {
+  background-color: #2ecbf8;
+}
+
+.facebook {
+  background-color: #234769;
+}
+
 .primary-content {
   background-color: #f6f6f6;
 }
@@ -194,94 +202,34 @@ body {
 
 
 
-/* ------------ carousel ------------ */
-.quote-carousel,
-.quoteCarouselBlock,
-.quote-avatar,
-.quote-text-wrapper,
-.quotation-mark,
-.quote-text,
-.quote-byline-wrapper,
-.quote-byline,
-.quote-byline-svg-line,
-.quote-link {
-  box-sizing: border-box;
-}
-
-.quote-carousel {
-  max-width: 100%;
-  position: relative;
-  margin: auto;
-}
-
-.prev,
-.next {
-  cursor: pointer;
-  position: absolute;
-  top: 0;
-  width: auto;
-  padding: 16px 20px;
-  font-weight: bold;
-  transition: 0.6s ease;
-  border-radius: 100%;
-}
-
-.prev:hover,
-.next:hover {
-  background-color: #b5b5b5;
-}
-
-.next {
-  right: 3%;
-}
-
-.prev {
-  left: 3%;
-}
-
-@media only screen and (min-width: 767px) {
-  .prev,
-  .next {
-    margin-top: -22px;
-  }
-
-  .next {
-    right: 10%;
-  }
-}
-
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-.hidden {
-  display: none;
-}
-
-
-
 /* ------------ mobile styles ------------ */
+.social-media-buttons {
+  position: fixed;
+  right: 0;
+  width: 50px;
+  top: 30%;
+  z-index: 100;
+}
+
+.share-bar {
+  display: block;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.twitter,
+.facebook {
+  border-radius: 5px 0 0 5px;
+}
+
 h1, h2, h3, p {
   margin: 0;
   padding: 0;
 }
 
 .section-wrapper {
-  width: 90%;
-  margin: 0 auto;
+  width: 80%;
+  margin: 0 auto 0 4%;
 }
 
 .primary-content {
@@ -334,6 +282,71 @@ h1, h2, h3, p {
   width: 100%;
   border-radius: 5px;
   border: none;
+}
+
+.quote-carousel,
+.quoteCarouselBlock,
+.quote-avatar,
+.quote-text-wrapper,
+.quotation-mark,
+.quote-text,
+.quote-byline-wrapper,
+.quote-byline,
+.quote-byline-svg-line,
+.quote-link {
+  box-sizing: border-box;
+}
+
+.quote-carousel {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  width: auto;
+  padding: 16px 20px;
+  font-weight: bold;
+  transition: 0.6s ease;
+  border-radius: 100%;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: #b5b5b5;
+}
+
+.next {
+  right: 3%;
+}
+
+.prev {
+  left: 3%;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.hidden {
+  display: none;
 }
 
 .quote-gallery-block {
@@ -450,16 +463,28 @@ h1, h2, h3, p {
 
 
 
-
-
 /* ------------ style for tablet and desktop ------------ */
 @media only screen and (min-width: 767px) {
+  .social-media-buttons {
+    position: fixed;
+    right: 0;
+    width: 100px;
+    top: 20%;
+  }
+
+  .share-bar {
+    display: block;
+    position: relative;
+    margin-bottom: 10px;
+  }
+
   .primary-content {
     padding: 50px 0 100px;
   }
 
   .section-wrapper {
     width: 100%;
+    margin: 0 auto;
   }
 
   .intro {
@@ -572,6 +597,15 @@ h1, h2, h3, p {
   .opening-quotation-mark {
     top: -90px;
     left: 0;
+  }
+
+  .prev,
+  .next {
+    margin-top: -22px;
+  }
+
+  .next {
+    right: 10%;
   }
 
   .quote-avatar {
