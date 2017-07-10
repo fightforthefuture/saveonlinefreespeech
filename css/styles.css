@@ -29,15 +29,6 @@ body {
   letter-spacing: 0.5px;
 }
 
-.intro-summary,
-.quote-text,
-.form-header-message:first-child,
-.argument-content,
-.credits-heading,
-.thin-text {
-  font-weight: lighter;
-}
-
 .quote-byline {
   font-weight: bold;
 }
@@ -77,6 +68,15 @@ body {
   .intro-summary,
   .form-header-message {
     font-size: 1.8em;
+  }
+
+  .intro-summary,
+  .quote-text,
+  .form-header-message:first-child,
+  .argument-content,
+  .credits-heading,
+  .thin-text {
+    font-weight: lighter;
   }
 
   .argument-content,
