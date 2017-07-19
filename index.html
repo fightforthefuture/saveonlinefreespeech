@@ -54,26 +54,24 @@
             <p class="form-header-message">Send the FCC a message:</p>
             <p class="form-header-message"><strong><span class="bold-text">tell them to keep their hands off the Internet.</span></strong></p>
           </header>
-          <form method="post" action="https://queue.fightforthefuture.org/action" accept-charset="UTF-8" class="form-fields-wrapper">
+          <form method="post" action="https://actionnetwork.org/petitions/save-online-free-speech/signatures" accept-charset="UTF-8" class="form-fields-wrapper new_signature" id="new_signature" novalidate="novalidate" target="_blank">
             <div class="form-input-left">
-              <input class="form-input input-name" type="text" name="member[first_name]" placeholder="Name" title="Name" autocomplete="name" required>
-              <input class="form-input input-email" type="email" name="member[email]" placeholder="Email" title="Email" required>
+              <!-- AN form lists first_name and last_name separately -->
+              <input class="form-input input-name" type="text" name="signature[first_name]" placeholder="Name" title="Name" autocomplete="name" required>
+              <input class="form-input input-email" type="email" name="signature[email]" placeholder="Email" title="Email" required>
               <div class="form-input-bottom">
+                <!-- AN form does not list postal address field -->
                 <input class="form-input input-address" type="text" name="member[street_address]" placeholder="Address" title="Address" required>
-                <input class="form-input input-zip" type="text" name="member[postcode]" placeholder="Zip" title="Zip" required>
+                <input class="form-input input-zip" type="text" name="signature[zip_code]" placeholder="Zip" title="Zip" required>
               </div>
               <input class="form-input" type="hidden" name="subject" value="Protect Net Neutrality!"/>
             </div>
             
             <div class="form-input-right">
-              <textarea class="form-input form-text-area" name="action_comment" title="Letter" placeholder="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit." required></textarea>
+              <textarea class="form-input form-text-area" name="signature[message_to_target]" title="Letter" placeholder="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit." required></textarea>
             </div>
 
             <button class="form-button" type="submit">Send your message</button>
-
-            <!-- Action Network -->
-            <!-- <input type="hidden" name="an_tags" value="[&quot;net-neutrality&quot;]"/>
-            <input type="hidden" name="an_petition_id" value="2ddb0663-1282-4b17-bb13-ee89cb92efc1"/> -->
           </form>
         </div>
         <div class="quote-carousel quote-gallery">
