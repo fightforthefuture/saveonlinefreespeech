@@ -405,6 +405,11 @@ h1, h2, h3, p {
   background-color: #1c1c1c;
 }
 
+.modal-header-wrapper {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
 .modal-footer-wrapper {
   background-color: #121212;
   padding: 25px;
@@ -412,6 +417,8 @@ h1, h2, h3, p {
   letter-spacing: 1.2px;
   font-size: 0.75em;
   font-weight: 900;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 .modal-alt-share-icon-yellow {
