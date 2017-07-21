@@ -289,7 +289,7 @@ h1, h2, h3, p {
 
 .success-modal {
   margin: 0 auto;
-  display: none;
+  display: flex;
   flex-direction: row;
   position: fixed;
   top: 0;
@@ -304,17 +304,21 @@ h1, h2, h3, p {
   background-color: rgba(0,0,0,0.4);
 }
 
-.close {
-  color: #aaa;
+.modal-close {
+  color: #ffffff;
+  font-weight: 100;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  border: 2px solid #ffffff;
+  text-align: center;
   float: right;
-  font-size: 28px;
-  font-weight: bold;
+  font-size: 1.5em;
+  margin: 10px;
 }
 
-.close:hover,
-.close:focus {
-  color: black;
-  text-decoration: none;
+.modal-close:hover,
+.modal-close:focus {
   cursor: pointer;
 }
 
