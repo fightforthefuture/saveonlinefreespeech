@@ -11,6 +11,12 @@
     modal.classList.add("hidden");
   }
 
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.classList.add("hidden");
+    }
+  }
+
   var form = document.getElementsByClassName('petition-form')[0];
   form.addEventListener('submit', function submitForm(e) {
     e.preventDefault();
