@@ -24,6 +24,9 @@ body {
 }
 
 .argument-content,
+.extra-reading-content,
+.extra-reading-item-link,
+.extra-reading-item-publisher,
 .quote-text,
 .quote-byline,
 .credits-heading {
@@ -38,7 +41,8 @@ body {
   text-decoration: none;
 }
 
-.argument-heading {
+.argument-heading,
+.extra-reading-heading {
   font-size: 1.8em
   letter-spacing: 1px;
 }
@@ -75,12 +79,14 @@ body {
   .quote-text,
   .form-header-message:first-child,
   .argument-content,
+  .extra-reading-content,
   .credits-heading,
   .thin-text {
     font-weight: lighter;
   }
 
   .argument-content,
+  .extra-reading-content,
   .quote-text,
   .quote-byline,
   .credits-heading {
@@ -101,7 +107,8 @@ body {
     font-weight: bolder;
   }
 
-  .argument-heading {
+  .argument-heading,
+  .extra-reading-heading {
     font-size: 2.8em;
   }
 }
@@ -181,11 +188,13 @@ body {
   stroke-width: 0.25;
 }
 
-.secondary-content {
+.secondary-content,
+.reading-list-item-link {
   color: #1f1f1f;
 }
 
-.argument-highlight {
+.argument-highlight,
+.reading-list-item-publisher {
   color: #ff1b1b;
 }
 
@@ -554,16 +563,19 @@ h1, h2, h3, p {
   margin-bottom: 25px;
 }
 
-.argument-list {
+.argument-list,
+.reading-list {
   padding-left: 0;
   counter-reset: item;
 }
 
-.argument-content {
+.argument-content,
+.extra-reading-content {
   margin-top: 15px;
 }
 
-.argument-list-content {
+.argument-list-content,
+.reading-list-item {
   list-style-position: inside;
   display: block;
 }
@@ -576,6 +588,19 @@ h1, h2, h3, p {
 
 .argument-content:nth-child(2) {
   margin-top: 25px;
+}
+
+.reading-list-item {
+  margin: 10px 0;
+}
+
+.reading-list-item-link,
+.reading-list-item-publisher {
+  letter-spacing: 0.5px;
+}
+
+.reading-list-item-link {
+  margin-right: 5px;
 }
 
 .credits-contact-wrapper {
@@ -788,14 +813,23 @@ h1, h2, h3, p {
     width: 85%;
   }
 
+  .extra-reading {
+    width: 85%;
+  }
+
   .supporting-argument:first-child {
     margin-top: 0;
   }
 
   .argument-content,
-  .argument-content:nth-child(2) {
+  .argument-content:nth-child(2),
+  .extra-reading-content {
     line-height: 1.25;
     margin-top: 50px;
+  }
+
+  .extra-reading {
+    margin: 100px 0 25px;
   }
 
   .credits-contact-wrapper {
