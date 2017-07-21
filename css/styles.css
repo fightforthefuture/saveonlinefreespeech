@@ -3,7 +3,8 @@ body {
   font-family: "Helvetica", sans-serif;
 }
 
-.intro-heading {
+.intro-heading,
+.modal-header-text {
   font-size: 2em;
   letter-spacing: 1px;
 }
@@ -112,11 +113,13 @@ body {
   border-top: 1px solid #ff2020;
 }
 
-.twitter {
+.twitter,
+.twitter-share-tag {
   background-color: #2ecbf8;
 }
 
-.facebook {
+.facebook,
+.facebook-share-tag {
   background-color: #234769;
 }
 
@@ -282,6 +285,137 @@ h1, h2, h3, p {
   width: 100%;
   border-radius: 5px;
   border: none;
+}
+
+.success-modal {
+  margin: 0 auto;
+  display: none;
+  flex-direction: row;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 200;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-content {
+  width: 650px;
+  margin: auto;
+}
+
+.modal-header-text {
+  text-align: center;
+  font-weight: 900;
+  font-size: 2em;
+  letter-spacing: 1.2px;
+}
+
+.modal-header-text,
+.modal-share-text,
+.modal-alt-share-text {
+  color: #ffffff;
+}
+
+.modal-header-wrapper {
+  padding-top: 55px;
+}
+
+.modal-share-buttons-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.modal-share-tag {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  margin-top: 30px;
+  margin-bottom: 55px;
+  border-radius: 5px;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 600;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.modal-share-tag:first-child {
+  margin-right: 10px;
+  padding-right: 5px;
+}
+
+.modal-share-tag:last-child {
+  margin-left: 10px;
+}
+
+.modal-social-img {
+  width: 40px;
+}
+
+.modal-footer-wrapper {
+  text-align: center;
+}
+
+.modal-help-text {
+  color: #6b6b6b;
+  text-transform: uppercase;
+  margin-right: 30px;
+}
+
+.share-bar-button {
+  border: 1px solid #353535;
+  padding: 10px;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+.modal-share-bar {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.modal-header-wrapper,
+.modal-share-buttons-wrapper {
+  background-color: #1c1c1c;
+}
+
+.modal-footer-wrapper {
+  background-color: #121212;
+  padding: 25px;
+  clear: both;
+  letter-spacing: 1.2px;
+  font-size: 0.75em;
+  font-weight: 900;
+}
+
+.modal-alt-share-icon-yellow {
+  color: #f6c13e;
+}
+
+.modal-alt-share-icon-red {
+  color: #ff4b3d;
 }
 
 .quote-carousel,

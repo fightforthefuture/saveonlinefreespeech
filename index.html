@@ -24,6 +24,7 @@
 
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
   <main>
@@ -54,7 +55,7 @@
             <p class="form-header-message">Send the FCC a message:</p>
             <p class="form-header-message"><strong><span class="bold-text">tell them to keep their hands off the Internet.</span></strong></p>
           </header>
-          <form method="post" action="https://queue.fightforthefuture.org/action" accept-charset="UTF-8" class="form-fields-wrapper petition-form">
+          <form method="post" action="https://queue.fightforthefuture.org/action" accept-charset="UTF-8" class="form-fields-wrapper petition-form" novalidate="novalidate">
             <div class="form-input-left">
               <input class="form-input input-name" type="text" name="member[first_name]" placeholder="Name" title="Name" autocomplete="name" required>
               <input class="form-input input-email" type="email" name="member[email]" placeholder="Email" title="Email" required>
@@ -75,6 +76,40 @@
             <input type="hidden" name="an_tags" value="[&quot;net-neutrality&quot;]"/>
             <input type="hidden" name="an_petition_id" value="68bca195-913e-487c-927c-591ca9551ceb"/>
           </form>
+        </div>
+        <div class="success-modal">
+          <div class="modal-content">
+            <span class="close">&times;</span>
+            <header class="modal-header-wrapper">
+              <p class="modal-header-text">Thanks for emailing them!</p>
+              <p class="modal-header-text">Maybe let your friends know?</p>
+            </header>
+            <div class="modal-share-buttons-wrapper">
+              <a href="https://www.facebook.com/sharer.php?u=https:www.saveonlinefreespeech.org/" target="_blank" class="modal-share-tag facebook-share-tag">
+                <img src="images/icons/facebook_white.svg" class="modal-social-img" />
+                <span class="modal-share-text">Share on Facebook</span>
+              </a>
+              <a href="https://twitter.com/intent/tweet?related=fightfortheftr&text=A federal agency is about to end online free speech. They must be stopped. saveonlinefreespeech.com" target="_blank" class="modal-share-tag twitter-share-tag">
+                <img src="images/icons/twitter_white.svg" class="modal-social-img" />
+                <span class="modal-share-text">Share on Twitter</span>
+              </a>
+            </div>
+            <footer class="modal-footer-wrapper">
+              <span class="modal-help-text">Other ways you can help:</span>
+              <span class="share-bar-button">
+                <a href="#" target="_blank" class="modal-share-bar">
+                  <span class="modal-alt-share-icon-yellow">&hearts;</span>
+                  <span class="modal-alt-share-text">Donate</span>
+                </a>
+              </span>
+              <span class="share-bar-button">
+                <a href="#" target="_blank" class="modal-share-bar">
+                  <i class="fa fa-video-camera modal-alt-share-icon-red"></i>
+                  <span class="modal-alt-share-text">Send video</span>
+                </a>
+              </span>
+            </footer>
+          </div>
         </div>
         <div class="quote-carousel quote-gallery">
           <article class="quoteCarouselBlock quote-gallery-block fade">
