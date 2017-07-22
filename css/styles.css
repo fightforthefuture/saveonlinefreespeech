@@ -296,6 +296,15 @@ h1, h2, h3, p {
   border: none;
 }
 
+
+
+
+
+
+
+
+
+
 .success-modal {
   margin: 0 auto;
   display: flex;
@@ -313,16 +322,23 @@ h1, h2, h3, p {
   background-color: rgba(0,0,0,0.4);
 }
 
+
+
+
+
+
+
+
 .modal-close {
   color: #ffffff;
   font-weight: 100;
   border-radius: 50%;
-  width: 30px;
-  height: 30px;
-  border: 2px solid #ffffff;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #ffffff;
   text-align: center;
   float: right;
-  font-size: 1.5em;
+  font-size: 1em;
   margin: 10px;
 }
 
@@ -332,14 +348,14 @@ h1, h2, h3, p {
 }
 
 .modal-content {
-  width: 650px;
+  width: 90%;
   margin: auto;
 }
 
 .modal-header-text {
   text-align: center;
-  font-weight: 900;
-  font-size: 2em;
+  font-weight: 500;
+  font-size: 1.2em;
   letter-spacing: 1.2px;
 }
 
@@ -350,7 +366,7 @@ h1, h2, h3, p {
 }
 
 .modal-header-wrapper {
-  padding-top: 55px;
+  padding-top: 45px;
 }
 
 .modal-share-buttons-wrapper {
@@ -362,29 +378,29 @@ h1, h2, h3, p {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 250px;
+  /*width: 250px;*/
   margin-top: 30px;
   margin-bottom: 55px;
   border-radius: 5px;
   letter-spacing: 1.2px;
   text-transform: uppercase;
   text-decoration: none;
-  font-weight: 600;
-  padding-bottom: 5px;
-  padding-top: 5px;
+  font-weight: 500;
+/*  padding-bottom: 5px;
+  padding-top: 5px;*/
 }
 
 .modal-share-tag:first-child {
-  margin-right: 10px;
-  padding-right: 5px;
+/*  margin-right: 10px;
+  padding-right: 5px;*/
 }
 
 .modal-share-tag:last-child {
-  margin-left: 10px;
+  /*margin-left: 10px;*/
 }
 
 .modal-social-img {
-  width: 40px;
+  /*width: 40px;*/
 }
 
 .modal-footer-wrapper {
@@ -394,13 +410,13 @@ h1, h2, h3, p {
 .modal-help-text {
   color: #6b6b6b;
   text-transform: uppercase;
-  margin-right: 30px;
+  /*margin-right: 30px;*/
 }
 
 .share-bar-button {
   border: 1px solid #353535;
-  padding: 10px;
-  margin-right: 20px;
+  /*padding: 10px;*/
+  /*margin-right: 20px;*/
   border-radius: 5px;
 }
 
@@ -421,11 +437,11 @@ h1, h2, h3, p {
 
 .modal-footer-wrapper {
   background-color: #121212;
-  padding: 25px;
+  /*padding: 25px;*/
   clear: both;
-  letter-spacing: 1.2px;
-  font-size: 0.75em;
-  font-weight: 900;
+  /*letter-spacing: 1.2px;*/
+  /*font-size: 0.75em;*/
+  /*font-weight: 900;*/
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
 }
@@ -437,6 +453,18 @@ h1, h2, h3, p {
 .modal-alt-share-icon-red {
   color: #ff4b3d;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 .quote-carousel,
 .quoteCarouselBlock,
@@ -624,6 +652,72 @@ h1, h2, h3, p {
 
 .contact-wrapper {
   padding: 15px 5% 25px 5%;
+}
+
+
+
+/* ------------ modal style for wide screen ------------ */
+@media only screen and (min-width: 667px) {
+  .modal-close {
+    width: 30px;
+    height: 30px;
+    border: 2px solid #ffffff;
+    font-size: 1.5em;
+    margin: 10px;
+  }
+
+  .modal-content {
+    width: 650px;
+    margin: auto;
+  }
+
+  .modal-header-text {
+    font-weight: 900;
+    font-size: 2em;
+    letter-spacing: 1.2px;
+  }
+
+  .modal-header-wrapper {
+    padding-top: 55px;
+  }
+
+  .modal-share-tag {
+    width: 250px;
+    margin-top: 30px;
+    margin-bottom: 55px;
+    letter-spacing: 1.2px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+  }
+
+  .modal-share-tag:first-child {
+    margin-right: 10px;
+    padding-right: 5px;
+  }
+
+  .modal-share-tag:last-child {
+    margin-left: 10px;
+  }
+
+  .modal-social-img {
+    width: 40px;
+  }
+
+  .modal-help-text {
+    margin-right: 30px;
+  }
+
+  .share-bar-button {
+    padding: 10px;
+    margin-right: 20px;
+  }
+
+  .modal-footer-wrapper {
+    padding: 25px;
+    letter-spacing: 1.2px;
+    font-size: 0.75em;
+    font-weight: 900;
+  }
 }
 
 
