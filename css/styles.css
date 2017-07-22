@@ -296,15 +296,6 @@ h1, h2, h3, p {
   border: none;
 }
 
-
-
-
-
-
-
-
-
-
 .success-modal {
   margin: 0 auto;
   display: flex;
@@ -321,13 +312,6 @@ h1, h2, h3, p {
   background-color: rgb(0,0,0);
   background-color: rgba(0,0,0,0.4);
 }
-
-
-
-
-
-
-
 
 .modal-close {
   color: #ffffff;
@@ -369,6 +353,16 @@ h1, h2, h3, p {
   padding-top: 45px;
 }
 
+.modal-header-wrapper,
+.modal-share-buttons-wrapper {
+  background-color: #1c1c1c;
+}
+
+.modal-header-wrapper {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
 .modal-share-buttons-wrapper {
   padding-top: 30px;
   padding-bottom: 20px;
@@ -390,64 +384,40 @@ h1, h2, h3, p {
 
 .modal-share-tag:first-child {
   margin-bottom: 10px;
-/*  margin-right: 10px;
-  padding-right: 5px;*/
-}
-
-.modal-share-tag:last-child {
-  /*margin-left: 10px;*/
 }
 
 .modal-social-img {
   width: 40px;
-/*  padding-left: 5px;*/
-}
-
-.modal-share-text {
-;
 }
 
 .modal-footer-wrapper {
+  background-color: #121212;
+  clear: both;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
   text-align: center;
+  padding-top: 25px;
+  height: 90px;
 }
 
 .modal-help-text {
   color: #6b6b6b;
   text-transform: uppercase;
-  /*margin-right: 30px;*/
+  display: block;
+  margin-bottom: 15px;
 }
 
 .share-bar-button {
   border: 1px solid #353535;
-  /*padding: 10px;*/
-  /*margin-right: 20px;*/
+  padding: 10px;
   border-radius: 5px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .modal-share-bar {
   text-decoration: none;
   text-transform: uppercase;
-}
-
-.modal-header-wrapper,
-.modal-share-buttons-wrapper {
-  background-color: #1c1c1c;
-}
-
-.modal-header-wrapper {
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-}
-
-.modal-footer-wrapper {
-  background-color: #121212;
-  /*padding: 25px;*/
-  clear: both;
-  /*letter-spacing: 1.2px;*/
-  /*font-size: 0.75em;*/
-  /*font-weight: 900;*/
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
 }
 
 .modal-alt-share-icon-yellow {
@@ -457,18 +427,6 @@ h1, h2, h3, p {
 .modal-alt-share-icon-red {
   color: #ff4b3d;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 .quote-carousel,
 .quoteCarouselBlock,
@@ -717,14 +675,17 @@ h1, h2, h3, p {
 
   .modal-help-text {
     margin-right: 30px;
+    display: inline;
   }
 
   .share-bar-button {
     padding: 10px;
     margin-right: 20px;
+    margin-left: 0;
   }
 
   .modal-footer-wrapper {
+    height: auto;
     padding: 25px;
     letter-spacing: 1.2px;
     font-size: 0.75em;
