@@ -623,7 +623,7 @@ h1, h2, h3, p {
 }
 
 .contact-wrapper {
-  padding: 15px 0 25px;
+  padding: 15px 5% 25px 5%;
 }
 
 
@@ -634,7 +634,7 @@ h1, h2, h3, p {
     position: fixed;
     right: 0;
     width: 100px;
-    top: 20%;
+    top: 30%;
   }
 
   .share-bar {
