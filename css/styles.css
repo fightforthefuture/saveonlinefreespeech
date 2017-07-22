@@ -617,11 +617,6 @@ h1, h2, h3, p {
   margin: 0 auto;
 }
 
-.credits-wrapper,
-.press-inquiries {
-  padding-left: 5px;
-}
-
 .credits-logo {
   width: 75%;
   margin-top: 5px;
@@ -840,8 +835,8 @@ h1, h2, h3, p {
     padding: 50px 0 50px 12.55%;
   }
 
-  .press-inquiries {
-    padding: 10px 0 20px 12.55%;
+  .contact-wrapper {
+    padding: 25px 0 55px 12.55%;
   }
 
   .credits-heading {
