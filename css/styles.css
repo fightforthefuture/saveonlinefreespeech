@@ -18,7 +18,8 @@ body {
 }
 
 .intro-summary,
-.form-header-message {
+.form-header-message,
+.form-input-right::after {
   font-size: 1.1em;
   letter-spacing: 0.5px;
 }
@@ -163,6 +164,10 @@ body {
   color: #1f1f1f;
 }
 
+.form-input-right::after {
+  color: #1f1f1f;
+}
+
 .form-button {
   color: #f6f6f6;
   background-color: #ff1818;
@@ -281,7 +286,20 @@ h1, h2, h3, p {
 }
 
 .form-text-area {
+  padding-top: 40px;
   height: 100px;
+}
+
+.form-input-right {
+  position: relative;
+}
+
+.form-input-right::after {
+  font-weight: bold;
+  content: "Letter:";
+  position: absolute;
+  top: 10px;
+  left: 9px;
 }
 
 .form-input::placeholder {
@@ -695,7 +713,7 @@ h1, h2, h3, p {
 
 
 
-/* ------------ style for tablet and desktop ------------ */
+/* ------------ style for widescreen tablet and desktop ------------ */
 @media only screen and (min-width: 767px) {
   .social-media-buttons {
     position: fixed;
@@ -779,9 +797,15 @@ h1, h2, h3, p {
     margin-left: 1%;
   }
 
+  .form-input-right::after {
+    top: 20px;
+    left: 19px;
+  }
+
   .form-text-area {
     position: absolute;
-    height: 87%;
+    padding-top: 50px;
+    height: 74%;
   }
 
   .form-input-bottom {
@@ -811,7 +835,8 @@ h1, h2, h3, p {
     }
 
     .form-text-area {
-       height: 89.5%;
+      padding-top: 50px;
+      height: 76%;
     }
   }
 
