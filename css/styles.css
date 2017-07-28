@@ -314,7 +314,7 @@ h1, h2, h3, p {
   border: none;
 }
 
-.success-modal {
+.modal-wrapper {
   margin: 0 auto;
   display: flex;
   flex-direction: row;

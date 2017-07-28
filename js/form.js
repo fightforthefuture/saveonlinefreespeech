@@ -1,17 +1,17 @@
 (function() {
-  var modal = document.getElementsByClassName("success-modal")[0];
-  var button = document.getElementsByClassName("form-button")[0];
-  var span = document.getElementsByClassName("modal-close")[0]
+  var background = document.querySelector(".background");
+  var button = document.querySelector(".form-button");
+  var close = document.querySelector(".modal-close");
 
-  span.onclick = function() {
-    modal.classList.add("hidden");
-  }
+  close.addEventListener("click", function(event) {
+    background.classList.add("hidden");
+  });
 
-  window.onclick = function(event) {
-    if (event.target == modal) {
-      modal.classList.add("hidden");
+  window.addEventListener("click", function(event) {
+    if (event.target == background) {
+      background.classList.add("hidden");
     }
-  }
+  });
 
   var form = document.getElementsByClassName("petition-form")[0];
   form.addEventListener("submit", function submitForm(e) {
@@ -20,7 +20,7 @@
     var req = new XMLHttpRequest();
 
     req.addEventListener("load", function(event) {
-      modal.classList.remove("hidden");
+      background.classList.remove("hidden");
     });
 
     req.open(form.getAttribute("method"), form.getAttribute("action"));
